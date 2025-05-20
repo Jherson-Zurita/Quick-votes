@@ -18,8 +18,13 @@ Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 
 ![Dashboard](https://via.placeholder.com/600x300)
 ![Ruleta en acción](https://via.placeholder.com/600x300)
+
+
 🛠️ Tecnologías utilizadas
 React + Vite para el desarrollo frontend.
+![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+![Vite](https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg)
+
 
 Clerk para autenticación y gestión de usuarios.
 
