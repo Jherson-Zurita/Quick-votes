@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Quick-votes
 =======
 # React + Vite
@@ -17,8 +16,6 @@ Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 - Votaciones, sorteos y ruletas en acción
 - Resultados y clasificaciones
 
-Ejemplo en Markdown:
-```md
 ![Dashboard](https://via.placeholder.com/600x300)
 ![Ruleta en acción](https://via.placeholder.com/600x300)
 🛠️ Tecnologías utilizadas
