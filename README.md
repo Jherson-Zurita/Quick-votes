@@ -48,7 +48,7 @@ Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 ## 🔗 Integración con Clerk
 La integración con Clerk incluye:
 
-Autenticación de usuarios con diferentes métodos de inicio de sesión.
+Autenticación de usuarios Clerk.
 
 Sincronización con Supabase mediante el ID de usuario de Clerk.
 
