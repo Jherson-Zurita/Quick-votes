@@ -1,6 +1,4 @@
 # Quick-votes
-=======
-# React + Vite
 
 # 🚀 Integración Clerk-Supabase para Proyecto de Interacción en Tiempo Real
 
