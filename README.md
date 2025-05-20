@@ -3,34 +3,40 @@
 =======
 # React + Vite
 
-Quick Votes
-Interactive Real-Time Voting Platform
+# 🚀 Integración Clerk-Supabase para Proyecto de Interacción en Tiempo Real
 
-🚀 Built with:
-React
-Vite
-Supabase
-Clerk
+Este proyecto implementa una plataforma interactiva para **cuestionarios, sorteos, ruletas y votaciones** en tiempo real con **integración Clerk-Supabase**. Utiliza Clerk para la autenticación de usuarios y Supabase para el almacenamiento y la gestión de datos, garantizando una experiencia segura y fluida.
 
-Features
-🗳️ Create polls, quizzes, and raffles in seconds
+## 🌐 Demo
+🔗 [Enlace a la demo](#) _(Reemplázalo con tu URL)_
 
-🔒 Secure authentication with Clerk
+## 📸 Capturas de pantalla
+Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
+- Página de inicio
+- Dashboard
+- Votaciones, sorteos y ruletas en acción
+- Resultados y clasificaciones
 
-⚡ Real-time results with Supabase
+Ejemplo en Markdown:
+```md
+![Dashboard](https://via.placeholder.com/600x300)
+![Ruleta en acción](https://via.placeholder.com/600x300)
+🛠️ Tecnologías utilizadas
+React + Vite para el desarrollo frontend.
 
-� Customizable voting experiences
+Clerk para autenticación y gestión de usuarios.
 
-📊 Live leaderboards and analytics
+Supabase como backend y base de datos en tiempo real.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TailwindCSS para estilos rápidos y personalizables.
 
-Currently, two official plugins are available:
+🔗 Integración con Clerk
+La integración con Clerk incluye:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Autenticación de usuarios con diferentes métodos de inicio de sesión.
 
-## Expanding the ESLint configuration
+Sincronización con Supabase mediante el ID de usuario de Clerk.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 3194c36 (Proyecto Quick votes)
+Reglas de acceso con Supabase RLS, asegurando que cada usuario acceda solo a sus datos.
+
+Gestión de participaciones en actividades utilizando Clerk y Supabase.
