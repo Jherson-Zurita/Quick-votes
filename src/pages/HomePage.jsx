@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@clerk/clerk-react';
+import { SignUp } from "@clerk/clerk-react";
+
 
 const HomePage = () => {
   const { isSignedIn } = useAuth();
@@ -120,12 +122,7 @@ const HomePage = () => {
                 Crear Actividad
               </Link>
             ) : (
-              <Link
-                to="/auth/sign-up"
-                className="px-8 py-3 text-lg font-semibold bg-white text-indigo-900 rounded-lg hover:bg-indigo-100 transition"
-              >
-                Registrarse
-              </Link>
+              <SignUp />
             )}
           </div>
         </div>
