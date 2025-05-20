@@ -22,8 +22,9 @@ Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 
 🛠️ Tecnologías utilizadas
 React + Vite para el desarrollo frontend.
-![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-![Vite](https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg)
+[![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)](https://react.dev/)
+[![Vite](https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg)](https://vitejs.dev/)
+
 
 
 Clerk para autenticación y gestión de usuarios.
