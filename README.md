@@ -29,9 +29,9 @@ Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 </a>
 
 ### Clerk para autenticación y gestión de usuarios
-<a href="https://clerk.dev/">
- ![Image](https://github.com/user-attachments/assets/c17fda05-df37-4bc9-b5a1-e1375ff3c2fc)
-</a>
+
+![Image](https://github.com/user-attachments/assets/c17fda05-df37-4bc9-b5a1-e1375ff3c2fc)
+
 
 ### Supabase como backend y base de datos en tiempo real
 <a href="https://supabase.com/">
