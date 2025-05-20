@@ -3,6 +3,26 @@
 =======
 # React + Vite
 
+Quick Votes
+Interactive Real-Time Voting Platform
+
+🚀 Built with:
+React
+Vite
+Supabase
+Clerk
+
+Features
+🗳️ Create polls, quizzes, and raffles in seconds
+
+🔒 Secure authentication with Clerk
+
+⚡ Real-time results with Supabase
+
+� Customizable voting experiences
+
+📊 Live leaderboards and analytics
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
