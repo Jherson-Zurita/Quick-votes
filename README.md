@@ -7,7 +7,7 @@
 Este proyecto implementa una plataforma interactiva para **cuestionarios, sorteos, ruletas y votaciones** en tiempo real con **integración Clerk-Supabase**. Utiliza Clerk para la autenticación de usuarios y Supabase para el almacenamiento y la gestión de datos, garantizando una experiencia segura y fluida.
 
 ## 🌐 Demo
-🔗 [Enlace a la demo](#) _(Reemplázalo con tu URL)_
+🔗 [(https://quick-votes-delta.vercel.app/)](#)
 
 ## 📸 Capturas de pantalla
 Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
