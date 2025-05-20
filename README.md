@@ -12,6 +12,7 @@ Este proyecto implementa una plataforma interactiva para **cuestionarios, sorteo
 ## 📸 Capturas de pantalla
 Aquí puedes agregar imágenes o GIFs mostrando las funcionalidades:
 - Página de inicio
+- ![Image](https://github.com/user-attachments/assets/dbb43743-ffc9-4d6c-9e6a-646048eea287)
 - Dashboard
 - Votaciones, sorteos y ruletas en acción
 - Resultados y clasificaciones
