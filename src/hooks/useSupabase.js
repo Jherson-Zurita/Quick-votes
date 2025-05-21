@@ -56,7 +56,7 @@ export const useSupabase = () => {
             console.error('Error insertando el perfil:', upsertError);
           }
         } else {
-          console.log('El usuario ya tiene un perfil registrado, omitiendo inserción.');
+          //console.log('El usuario ya tiene un perfil registrado, omitiendo inserción.');
         }
       } catch (error) {
         console.error('Error inicializando cliente de Supabase:', error);
