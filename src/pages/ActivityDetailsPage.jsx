@@ -45,7 +45,7 @@ const ActivityDetailsPage = () => {
           .from('activities')
           .select('*')
           .eq('id', activityId)
-          .single();
+          .maybeSingle();
         
         if (activityError) throw activityError;
         if (!activityData) throw new Error('Activity not found');
@@ -196,15 +196,24 @@ const ActivityDetailsPage = () => {
   
   if (error) {
     return (
-      <div className="flex flex-col items-center justify-center p-6 space-y-4">
-        <h1 className="text-xl font-bold text-red-600">Error loading activity</h1>
-        <p>{error}</p>
-        <button 
-          onClick={() => navigate('/app/dashboard')}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
-          Back to Dashboard
-        </button>
+      <div className="flex flex-col items-center justify-center p-6">
+        <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200 max-w-md">
+          <h1 className="text-2xl font-bold text-red-600 text-center">Error al cargar la actividad</h1>
+          <p className="text-gray-700 text-center mt-2">
+            Hubo un problema al cargar la actividad. Intente nuevamente.
+          </p>
+
+          <button
+            onClick={() => navigate('/app/dashboard')}
+            className="mt-4 w-full px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
+          >
+            Volver al Dashboard
+          </button>
+
+          <p className="text-sm text-gray-500 text-center mt-2">
+            Vuelva al Dashboard y seleccione su actividad otra vez.
+          </p>
+        </div>
       </div>
     );
   }
