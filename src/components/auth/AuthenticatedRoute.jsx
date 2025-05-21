@@ -9,7 +9,7 @@ export default function AuthenticatedRoute() {
   
   useEffect(() => {
     if (isLoaded && !isSignedIn) {
-      navigate('/sign-in');
+      navigate('/auth/sign-in');
     }
   }, [isLoaded, isSignedIn, navigate]);
   
